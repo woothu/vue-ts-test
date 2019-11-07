@@ -2,8 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
-    <CAlert :show="true" variant="success">hehe</CAlert>
-    <!-- <CBadge variant="success">hehe</CBadge> -->
+    <CAlert :show="true" color="success">hehe</CAlert>
     <CTextarea
       label="My textarea"
       style="width:200px"
@@ -18,7 +17,7 @@
     <BButton variant="success">
       BVue button
     </BButton>
-    <CButton variant="success" v-c-tooltip.hover="'hehe'">
+    <CButton color="success" v-c-tooltip.hover="'hehe'">
       Coreui button
     </CButton>
   </div>
@@ -27,6 +26,7 @@
 <script lang="ts">
 import Vue from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
+// treeshaking works if sideeffects=false in coreui/vue
 import { CAlert, CTextarea, CButton, CTooltip } from '@coreui/vue/src';
 // import CoreuiVue from '@coreui/vue';
 import { BButton, VBTooltip } from 'bootstrap-vue';
