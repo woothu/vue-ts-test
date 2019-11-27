@@ -15,12 +15,15 @@
     <CButton color="success" v-c-tooltip.hover="'hehe'">
       Coreui button
     </CButton>
+
+    <CChartBar style="width:400px;" :datasets="[{ data: [1,2,3,4,5,6] }]"/>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import { CAlert, CTextarea, CButton, CTooltip, CIcon } from '@coreui/vue/src';
+import { CChartBar } from '@coreui/vue-chartjs/src/index.js';
 
 export default Vue.extend({
   name: 'app',
@@ -32,6 +35,7 @@ export default Vue.extend({
     CTextarea,
     CButton,
     CIcon,
+    CChartBar,
   },
 });
 </script>
