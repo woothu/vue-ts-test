@@ -10,7 +10,7 @@
     <br/>
     <CIcon name="cil-pencil" height="24"/>
     <br/>
-    <Button wrong-option="sth" type="primary">Element UI button</Button>
+    <Button wrong-option="sth" :type="['hehe']">Element UI button</Button>
     <br/>
     <CButton wrong-option="sth" :color="['success']" v-c-tooltip.hover="'tooltip'">
       Coreui button
