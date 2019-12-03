@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" style="color:blue;">
     <CAlert :show="true" color="success">Alert</CAlert>
     <br/>
     <CTextarea
@@ -9,6 +9,7 @@
     />
     <br/>
     <CIcon name="cil-pencil" height="24"/>
+    <CIconStyled name="cil-pencil" size="2xl"/>
     <br/>
     <Button wrong-option="sth" :type="['hehe']">Element UI button</Button>
     <br/>
@@ -23,6 +24,8 @@
 <script lang="ts">
 import Vue from 'vue';
 import { CAlert, CTextarea, CButton, CTooltip, CIcon } from '@coreui/vue/src';
+import { CIcon as CIconStyled } from '@coreui/icons-vue';
+
 import { Button } from 'element-ui';
 import { CChartBar } from '@coreui/vue-chartjs/src/index.js';
 
@@ -37,6 +40,7 @@ export default Vue.extend({
     CTextarea,
     CButton,
     CIcon,
+    CIconStyled,
     CChartBar,
   },
 });

@@ -15,6 +15,7 @@
         "src/*"
       ]
     },
+    "typeRoots": ["./node_modules/@types", "./src/shims-tsx.d.ts"],
     "lib": [
       "esnext",
       "dom",

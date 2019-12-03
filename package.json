@@ -10,6 +10,7 @@
   "dependencies": {
     "@coreui/icons": "github:coreui/coreui-icons#v1-next",
     "@coreui/vue": "coreui/coreui-vue#dev",
+    "@coreui/icons-vue": "../coreui-icons-vue",
     "@coreui/vue-chartjs": "coreui/coreui-vue-chartjs#master",
     "element-ui": "^2.13.0",
     "core-js": "^3.4.4",
