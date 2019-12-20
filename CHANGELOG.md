@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/woothu/vue-ts-test/compare/1.0.0...1.0.1) (2019-12-20)
+
+
+### Bug Fixes
+
+* fix changelog ([2b616d6](https://github.com/woothu/vue-ts-test/commit/2b616d6f71f4fbfa0353528753c6e4b77678a349))
+
 # 1.0.0 (2019-12-20)
 
 ## Features
