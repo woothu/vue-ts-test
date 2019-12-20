@@ -1,6 +1,6 @@
 {
   "name": "vue-ts-test",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -8,10 +8,10 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@coreui/icons": "github:coreui/coreui-icons#v1-next",
-    "@coreui/vue": "coreui/coreui-vue#dev",
-    "@coreui/icons-vue": "../coreui-icons-vue",
-    "@coreui/vue-chartjs": "coreui/coreui-vue-chartjs#master",
+    "@coreui/icons": "^1.0.0",
+    "@coreui/vue": "^3.0.0-beta.5",
+    "@coreui/icons-vue": "^1.0.2",
+    "@coreui/vue-chartjs": "^1.0.2",
     "element-ui": "^2.13.0",
     "core-js": "^3.4.4",
     "vue": "^2.6.10"
@@ -26,7 +26,6 @@
     "@vue/cli-service": "^4.0.5",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
-    "semantic-release": "^15.13.31",
     "typescript": "^3.7.2",
     "vue-template-compiler": "^2.6.10"
   },
@@ -39,7 +38,6 @@
     ],
     "branch": "master",
     "repositoryUrl": "https://github.com/woothu/vue-ts-test",
-    "tagFormat": "${version}",
-    "ci": false
+    "tagFormat": "${version}"
   }
 }
