@@ -26,7 +26,8 @@ jobs:
         npm run build
       env:
         CI: true
-    - release
+    - name: release
       run: |
         npx semantic-release
+        
 
