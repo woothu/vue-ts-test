@@ -17,12 +17,29 @@
     "vue": "^2.6.10"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/commit-analyzer": "^6.3.3",
+    "@semantic-release/git": "^7.0.18",
+    "@semantic-release/release-notes-generator": "^7.3.5",
     "@vue/cli-plugin-babel": "^4.0.5",
     "@vue/cli-plugin-typescript": "^4.0.5",
     "@vue/cli-service": "^4.0.5",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
+    "semantic-release": "^15.13.31",
     "typescript": "^3.7.2",
     "vue-template-compiler": "^2.6.10"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/git"
+    ],
+    "branch": "master",
+    "repositoryUrl": "https://github.com/woothu/vue-ts-test",
+    "tagFormat": "${version}",
+    "ci": false
   }
 }
