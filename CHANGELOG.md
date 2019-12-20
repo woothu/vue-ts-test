@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/woothu/vue-ts-test/compare/1.1.0...1.2.0) (2019-12-20)
+
+
+### Bug Fixes
+
+* add tokens to CI build ([ed286ca](https://github.com/woothu/vue-ts-test/commit/ed286ca83a0fe269ddcfc66b2c1bed807bdd2156))
+* fix ci ([8f57ea4](https://github.com/woothu/vue-ts-test/commit/8f57ea4bb98a3de3134a7da330e803647f04ff55))
+
+
+### Features
+
+* set up semantic release in CI ([a1187a4](https://github.com/woothu/vue-ts-test/commit/a1187a466269f79ec6f134c0ca6515925e3c0aaa))
+
 # [1.1.0](https://github.com/woothu/vue-ts-test/compare/1.0.1...1.1.0) (2019-12-20)
 
 
