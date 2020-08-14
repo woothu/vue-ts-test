@@ -26,8 +26,8 @@ import Vue from 'vue';
 import { CAlert, CTextarea, CButton, CTooltip, CIcon } from '@coreui/vue/src';
 import { CIcon as CIconStyled } from '@coreui/icons-vue';
 
-import { Button } from 'element-ui';
-import { CChartBar } from '@coreui/vue-chartjs/src/index.js';
+// import { Button } from 'element-ui';
+// import { CChartBar } from '@coreui/vue-chartjs/src/index.js';
 
 export default Vue.extend({
   name: 'app',
@@ -35,13 +35,13 @@ export default Vue.extend({
     'c-tooltip': CTooltip,
   },
   components: {
-    Button,
+    // Button,
     CAlert,
     CTextarea,
     CButton,
     CIcon,
     CIconStyled,
-    CChartBar,
+    // CChartBar,
   },
 });
 </script>
